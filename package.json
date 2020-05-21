@@ -1,0 +1,28 @@
+{
+  "name": "sapper-manual-ssr-export",
+  "version": "1.0.0",
+  "description": "Manually export sapper/svelte components with placeholders to use with other SSR engines (like wordpress)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "sapper-manual-ssr-export": "./cli.js"
+  },
+  "author": "GCastilho",
+  "license": "ISC",
+  "keywords": [
+    "sapper",
+    "svelte",
+    "ssr",
+    "wordpress"
+  ],
+  "dependencies": {
+    "dom-parser": "^0.1.6",
+    "npm": "^6.14.5",
+    "yargs": "^15.3.1"
+  },
+  "devDependencies": {
+    "@types/yargs": "^15.0.5"
+  }
+}
