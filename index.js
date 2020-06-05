@@ -75,7 +75,7 @@ async function setup() {
 
 /**
  * Extract the SSR components from exported sapper
- * @param {{name:string, url: string, css: string[]}[]} components The
+ * @param {{name:string, url:string, css:string[]}[]} components The
  * componenets that will be extracted
  */
 async function extract(components) {

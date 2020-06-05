@@ -21,9 +21,9 @@ function run(script, ...args) {
 
 ;(async function() {
 	try {
-		const componenets = await setup()
+		const components = await setup()
 		await run('export', argv.export, '--entry', argv.entry)
-		await extract(componenets)
+		await extract(components)
 	} catch (err) {
 		console.error('Error:', err)
 		if (typeof err === 'string' && err.replace(/\'.*?\'./, '') == 'The entry folder already exists')
